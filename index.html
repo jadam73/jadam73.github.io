@@ -1,23 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Egy szuper oldal</title>
+    <link rel="stylesheet" href="stilus.css">
+    <link rel="stylesheet" href="lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <title>Home</title>
 </head>
+
 <body>
-    <h1>Pizzeria</h1>
-    <h2>Products</h2>
-    <a href="/pages/products.html">Products</a>
-    <h2>Orders</h2>
-    <a href="/pages/orders.html">Orders</a>
-    <h2>rolunk</h2>
-    <a href="rolunk.html">Rólunk</a>
-    
-    <p>
-    <a target="blank" href="https://www.donpepe.hu/">Don Pepe Pizzéria</a>
-    <a href="pages/orders.html">saját orderek</a>
-    <a href="https://www.donpepe.hu/"><img width="35" src="img/gomb.jpg" alt=""></a>
-</p>
+
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="order.html">Megrendelés</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">Rólunk</a>
+        </li>
+    </ul>
+
+    <h1>Termékeink</h1>
+
+    <div class="container">
+    <div class="row">
+    <div class="col-1"> </div>
+    <div class="col-10">
+        <span>Banánkenyér</span>
+
+        <div>
+            <input type="radio" name="toltet">
+            <label for="">Meggyes</label>
+        </div>
+        <div>
+            <input type="radio" name="toltet">
+            <label for="">Sima</label>
+        </div>
+        <div>
+            <input type="radio" name="toltet">
+            <label for="">Cseresznyés</label>
+        </div>
+        <img src="img\Banánkenyér.jpg" alt="">
+
+        <div>
+            <span>Hókifli</span>
+        </div>
+
+        <div>
+            <input type="checkbox" name="turos">
+            <label for="">Túrós</label>
+        </div>
+        <div>
+            <input type="checkbox" name="lekvaros">
+            <label for="">Lekváros</label>
+        </div>
+        <div>
+            <input type="checkbox" name="gesztenyes">
+            <label for="">Gesztenyés</label>
+        </div>
+        <div>
+            <input type="checkbox" name="dios">
+            <label for="">Diós</label>
+        </div>
+        <img src="img/hókifli.jpg" alt="">
+        <div>
+            <span>Meggyes süti</span>
+        </div>
+        <img src="img/meggyes suti.jpg" alt="">
+        <div>
+            <span>Sajtos rúd</span>
+        </div>
+        <img src="img\Sajtos rúd.jpg" alt="">
+
+    </div>
+
+    <div class="col-1"> </div>
+</div>
+</div>
 </body>
+
 </html>
