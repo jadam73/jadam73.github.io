@@ -12,11 +12,11 @@ h1 {
   }
 
   body {
-      background-color: rgb(185, 226, 252);
-      
-  }
-
-  img {
+      background-color: lightcoral;
+         }
+    
+    
+ .termekfoto {
      width: 180px;
   }
 
@@ -24,3 +24,5 @@ h1 {
       font-size: large;
       
   }
+
+
