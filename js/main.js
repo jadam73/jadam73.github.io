@@ -1,4 +1,10 @@
 
+let parent = document.querySelector("h1");
+let datummezo = document.createElement("h6");
+datummezo.style.color = "black";
+datummezo.innerHTML = new Date();
+parent.appendChild(datummezo);
+
 
 function calcAmount () {
     let price = 1000;

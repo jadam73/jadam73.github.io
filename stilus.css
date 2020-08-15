@@ -1,4 +1,9 @@
 
+body {
+    background-color: hsl(36deg 30% 91%);
+}
+
+
 span {
     font-style: italic;
     font-size: x-large;
@@ -10,10 +15,6 @@ h1 {
     font-weight: 500;
     text-align: center;
   }
-
-  body {
-      background-color: lightcoral;
-         }
     
     
  .termekfoto {
@@ -22,7 +23,33 @@ h1 {
 
   label {
       font-size: large;
-      
-  }
+      }
 
+div.bal {
+    float: left;
+}      
 
+div.jobb {
+    float: right
+}
+
+.div3 {
+clear: left;
+}
+
+div.box {
+    background-color: white;
+    max-width: 600px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+div.header-image{
+    background-image: url(img/Banánkenyér.jpg);
+    background-size: 180px;
+    height: 180px;  
+}
+
+div.box-content {
+    padding: 20px;
+}

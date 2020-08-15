@@ -4,17 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stilus.css">
     <link rel="stylesheet" href="lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stilus.css">
     <title>Home</title>
-    <style>
-        body {
-            background-image: url(/img/termekfoto.png);
-            background-repeat: no-repeat;
-            background-size: 400px;
-            background-position: center bottom ;
-        }
-    </style>
+
 </head>
 
 <body>
@@ -33,56 +26,81 @@
 
     <h1>Termékeink</h1>
 
+
+    <div class="box">
+        <div class="header-image"></div>
+        <div class=box-content>
+            <h3>Banánkenyér</h3>
+            <ul>
+                <li>Sima</li>
+                <li>Meggyes</li>
+                <li>Cseresznyés</li>
+            </ul>
+        </div>
+    </div>
+
+
+
     <div class="container">
         <div class="row">
             <div class="col-1"> </div>
             <div class="col-10">
-                <span>Banánkenyér</span>
+                <div class="bal">
+                    <span>Banánkenyér</span>
+                    <div>
+                        <img class="termekfoto" src="img/Banánkenyér.jpg" alt="">
+                    </div>
+                    <div>
+                        <input type="radio" name="toltet">
+                        <label>Meggyes</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="toltet">
+                        <label>Sima</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="toltet">
+                        <label>Cseresznyés</label>
+                    </div>
+                </div>
 
-                <div>
-                    <input type="radio" name="toltet">
-                    <label>Meggyes</label>
-                </div>
-                <div>
-                    <input type="radio" name="toltet">
-                    <label>Sima</label>
-                </div>
-                <div>
-                    <input type="radio" name="toltet">
-                    <label>Cseresznyés</label>
-                </div>
-                <img class="termekfoto" src="img/Banánkenyér.jpg" alt="">
-
-                <div>
+                <div class="jobb">
                     <span>Hókifli</span>
+                    <div>
+                        <img class="termekfoto" src="img/hókifli.jpg" alt="">
+                    </div>
+                    <div>
+                        <input type="checkbox" name="turos">
+                        <label>Túrós</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="lekvaros">
+                        <label>Lekváros</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="gesztenyes">
+                        <label>Gesztenyés</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="dios">
+                        <label>Diós</label>
+                    </div>
+
                 </div>
 
-                <div>
-                    <input type="checkbox" name="turos">
-                    <label>Túrós</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="lekvaros">
-                    <label>Lekváros</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="gesztenyes">
-                    <label>Gesztenyés</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="dios">
-                    <label>Diós</label>
-                </div>
-                <img class="termekfoto" src="img/hókifli.jpg" alt="">
-                <div>
+                <div class="div3">
                     <span>Meggyes süti</span>
+                    <div>
+                        <img style="display: inline;" class="termekfoto" src="img/meggyessuti.jpg" alt="">
+                    </div>
                 </div>
-                <img class="termekfoto" src="img/meggyessuti.jpg" alt="">
-                <div>
-                    <span>Sajtos rúd</span>
-                </div>
-                <img class="termekfoto" src="img/Sajtosrúd.jpg" alt="">
 
+                <div class="div3">
+                    <span>Sajtos rúd</span>
+                    <div>
+                        <img style="display: inline;" class="termekfoto" src="img/Sajtosrúd.jpg" alt="">
+                    </div>
+                </div>
             </div>
 
             <div class="col-1"> </div>
